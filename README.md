@@ -1,7 +1,8 @@
 # redis
 
-<?php
+Desenvolvimento da aplicação “Redinsgo” em PHP e REDIS:
 
+<?php
 $redis = new Redis(); 
 $redis->connect('127.0.0.1', 6379); 
 
