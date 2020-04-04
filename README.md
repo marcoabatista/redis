@@ -55,7 +55,7 @@ foreach ($numeros as $k => $v) {
         break;
     }        
 }    
-
+ 
 $sorteio=implode(",",$redis->smembers("sorteio"));
 echo "Pedras sorteadas: $sorteio\n";
 
