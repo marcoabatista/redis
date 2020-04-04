@@ -14,3 +14,9 @@ echo "\n";
 echo "Resposta do servidor REDIS ao PING: ".$redis->ping();
 echo "\n";
 ```
+Geração das cartelas, utilizando um set com números de 1 a 99 para usar a função SRANDMEMBER:
+```php
+for ($i=1; $i <= 99; $i++) {
+    $redis->sadd("cartela","$i");
+}
+````
